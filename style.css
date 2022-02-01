@@ -3,13 +3,19 @@ body{
 }
 #cabecalho{
     background-color: lawngreen;
-    position:relative;
-    margin-top:none;
+    width:100%;
+    position:fixed;
+    top: 0px;
 }
 h1{
     text-align: center;
 }
 #minha_foto{
+    top: 200px;
+    position: absolute;
     width: 300px;
-    height: 350px;
+    height: 328px;
+}
+#licoes_a_aprender , #licoes_aprendidas{
+    display: inline-block;
 }
