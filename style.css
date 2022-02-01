@@ -10,6 +10,7 @@ body{
 h1{
     text-align: center;
 }
+
 #minha_foto{
     top: 200px;
     position: absolute;
@@ -17,5 +18,16 @@ h1{
     height: 328px;
 }
 #licoes_a_aprender , #licoes_aprendidas{
+    margin-top: 400px;
     display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#centro{
+    top:100%;
+}
+#seção1 ,#seção2{
+    display: inline-block;
+}
+#rodape{
+    background-color: rgb(25, 0, 252);
 }
