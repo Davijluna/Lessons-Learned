@@ -2,20 +2,21 @@ body{
     background-color:rgb(253, 251, 251);
 }
 #cabecalho{
-    background-color: lawngreen;
+    background-color: rgb(39, 74, 151);
     width:100%;
     position:fixed;
     top: 0px;
 }
 h1{
     text-align: center;
+    color: rgb(3, 2, 20);
 }
 
 #minha_foto{
-    top: 200px;
+    top: 140px;
     position: absolute;
-    width: 300px;
-    height: 328px;
+    width: 200px;
+    height: 228px;
 }
 #licoes_a_aprender , #licoes_aprendidas{
     margin-top: 400px;
@@ -23,7 +24,10 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #centro{
-    top:100%;
+    top:100px;
+}
+ol{
+    margin-top: 16px;
 }
 #seção1 ,#seção2{
     display: inline-block;
