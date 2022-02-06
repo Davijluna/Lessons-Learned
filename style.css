@@ -30,6 +30,7 @@ h1{
     position: relative;
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 100px;
 }
 #centro{
     top:100px;
@@ -49,6 +50,12 @@ border: 1px;
 #rodape{
     background-color: rgb(25, 0, 252);
     width: 100%;
+    height: 20px;
     position: fixed;
     bottom: 0px;
+}
+#nota {
+    text-align: center;
+    color: aliceblue;    
+
 }
