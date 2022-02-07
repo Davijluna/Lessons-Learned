@@ -18,18 +18,23 @@ h1{
     color: rgb(185, 214, 185);
     font-size:50px;
 }
+.topEsquerdo {
+    color: rgb(135, 141, 222);
+}
 
 #minha_foto{
-    position: fixed;
+    text-align: center;
+    position:absolute;
     top: 100px;
     width: 200px;
     height: 230px;
+    border-radius: 10px;
 }
 #licoes_aprendidas , #licoes_a_aprender{
     margin-top: 325px;
     position: relative;
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     size: 100px;
 }
 #centro{
@@ -40,9 +45,10 @@ ol{
     margin-top: 16px;
 }
 #tabela{
-border: 1px;
+    margin: auto;
+    border: 1px;
 }
-#seção1 , #seção2{
+.lado-direito , .lado-esquerdo{
     display: inline-block;
     position:relative;
     bottom: -20px;
