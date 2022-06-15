@@ -7,36 +7,38 @@ body {
 #cabecalho {
     background-color: rgb(2, 3, 66);
     height: 100px;
-    width: 100%;
     position:fixed;
     top: 0px;
+    width: 100%;
 }
 #topo {
-    top: 15px;
     position: absolute;
+    top: 15px;
 }
 h1{
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(185, 214, 185);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:50px;
+    text-align: center;
 }
 .topEsquerdo {
     color: rgb(135, 141, 222);
 }
 
 #minha_foto {
-    text-align: center;
-    position:absolute;
-    top: 100px;
-    width: 200px;
-    height: 230px;
     border-radius: 10px;
+    position:absolute;
+    text-align: center;
+    top: 100px;
+    height: 230px;
+    width: 200px;
 }
 #licoes_aprendidas , #licoes_a_aprender {
-    margin-top: 325px;
-    position: relative;
+    line-height: normal;
+    color: rgb(67, 57, 211);
     display: inline-block;
+    position: relative;
+    margin-top: 325px;
     font-family: Verdana, Tahoma, sans-serif;
     size: 100px;
 }
@@ -53,18 +55,19 @@ ol{
 }
 .lado-direito , .lado-esquerdo {
     display: inline-block;
-    position:relative;
     bottom: -20px;
+    font-size: 15px;
+    position:relative;
 }
 #rodape {
     background-color: rgb(25, 0, 252);
-    width: 100%;
-    height: 20px;
-    position: fixed;
     bottom: 0px;
+    width: 100%;
+    position: fixed;
+    height: 20px;
 }
 #nota {
-    text-align: center;
     color: aliceblue;    
+    text-align: center;
 
 }
