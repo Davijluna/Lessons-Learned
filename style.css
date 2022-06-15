@@ -4,6 +4,7 @@ body {
     padding: 1px;
     padding: 2;
 }
+
 #cabecalho {
     background-color: rgb(2, 3, 66);
     height: 100px;
@@ -11,16 +12,19 @@ body {
     top: 0px;
     width: 100%;
 }
+
 #topo {
     position: absolute;
     top: 15px;
 }
+
 h1{
     color: rgb(185, 214, 185);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:50px;
     text-align: center;
 }
+
 .topEsquerdo {
     color: rgb(135, 141, 222);
 }
@@ -33,6 +37,7 @@ h1{
     height: 230px;
     width: 200px;
 }
+
 #licoes_aprendidas , #licoes_a_aprender {
     line-height: normal;
     color: rgb(67, 57, 211);
@@ -42,23 +47,28 @@ h1{
     font-family: Verdana, Tahoma, sans-serif;
     size: 100px;
 }
+
 #centro {
     top:100px;
     height: 500px;
 }
+
 ol{
     margin-top: 16px;
 }
+
 #tabela {
     margin: auto;
     border: 1px;
 }
+
 .lado-direito , .lado-esquerdo {
     display: inline-block;
     bottom: -20px;
     font-size: 15px;
     position:relative;
 }
+
 #rodape {
     background-color: rgb(25, 0, 252);
     bottom: 0px;
@@ -66,8 +76,14 @@ ol{
     position: fixed;
     height: 20px;
 }
+
 #nota {
     color: aliceblue;    
     text-align: center;
 
+}
+
+div {
+    display: inline-block;
+    width: 100px;
 }
