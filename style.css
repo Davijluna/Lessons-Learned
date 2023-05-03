@@ -1,32 +1,31 @@
 body {
-    background-color:rgb(253, 251, 251);
-    margin: 2px;
-    padding: 1px;
-    padding: 2;
+  background-color: rgb(253, 251, 251);
+  margin: 2px;
+  padding: 1px;
 }
 
 #cabecalho {
-    background-color: rgb(2, 3, 66);
-    height: 100px;
-    position:fixed;
-    top: 0px;
-    width: 100%;
+  background-color: rgb(2, 3, 66);
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #topo {
-    position: absolute;
-    top: 15px;
+  position: absolute;
+  top: 15px;
 }
 
-h1{
-    color: rgb(185, 214, 185);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:50px;
-    text-align: center;
+h1 {
+  color: rgb(185, 214, 185);
+  font-family: Impact, Haettenschweiler, Arial Narrow, Bold, sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 .topEsquerdo {
-    color: rgb(135, 141, 222);
+  color: rgb(135, 141, 222);
 }
 
 #minha_foto {
@@ -78,7 +77,7 @@ ol{
 }
 
 #nota {
-    color: aliceblue;    
+    color: aliceblue;
     text-align: center;
 
 }
